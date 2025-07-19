@@ -1,6 +1,6 @@
 """
 Enhanced FRC District Event Coverage Analysis
-This script finds multiple coverage solutions and ensures team 3314 is included.
+This script finds multiple coverage solutions.
 Supports both local JSON files and direct Blue Alliance API integration.
 """
 

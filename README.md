@@ -17,7 +17,9 @@ This tool uses a **greedy set cover algorithm** to find the minimum number of te
 - Championship attendance is determined by district points, not pre-planned partnerships8 total events in FMA district
 Filtering out district championship events...
   Skipping championship event: FIRST Mid-Atlantic District Championship (2025fmacmp)
-✅ Successfully fetched data for 7 events (excluding district championships)ams to find optimal scouting alliances for district eve## 🌍 Common District Abbreviations
+✅ Successfully fetched data for 7 events (excluding district championships)ams to find optimal scouting alliances for district events
+
+## 🌍 Common District Abbreviations
 
 - `fma` - FIRST Mid-Atlantic
 - `fim` - FIRST in Michigan
