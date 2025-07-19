@@ -3,7 +3,9 @@
 A powerful command-line tool for FIRST Robotics Competition (F📡 Using The Blue Alliance API
    Year: 2025
    District: FMA
-Fetching 2025 FMA district events from The Blue Alliance..## 🔧 Technical Details
+Fetching 2025 FMA district events from The Blue Alliance.
+
+## 🔧 Technical Details
 
 This tool uses a **greedy set cover algorithm** to find the minimum number of teams needed to cover all district events. The algorithm:
 
@@ -31,7 +33,7 @@ Filtering out district championship events...
 - `nc` - North Carolina
 - `isr` - Israelol solves the problem of coordinating comprehensive match scouting across multiple teams in a district with minimal resources.
 
-## ��� What It Does
+## What It Does
 
 The district coverage analysis tool answers the question: **"What's the minimum number of teams needed to scout every match at every district event?"**
 
@@ -41,7 +43,7 @@ The district coverage analysis tool answers the question: **"What's the minimum 
 - **Respects Constraints**: Filters teams by number ranges and exclusion lists
 - **Live Data**: Fetches current data directly from The Blue Alliance API
 
-## ��� Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.7 or higher
@@ -76,7 +78,7 @@ Replace:
 - `YOUR_API_KEY` with your Blue Alliance API key
 - `fma` with your district abbreviation (or your district's abbreviation)
 
-## ��� Usage Examples
+## Usage Examples
 
 ```bash
 # Basic analysis using Blue Alliance API
@@ -98,7 +100,7 @@ python multiple_coverage_analysis.py 3314 --max-team 6000 --include-teams 10123 
 python multiple_coverage_analysis.py 3314
 ```
 
-## ���️ Command Line Options
+## Command Line Options
 
 | Option | Description | Default | Example |
 |--------|-------------|---------|---------|
@@ -121,7 +123,7 @@ python multiple_coverage_analysis.py 3314
 
 Example: `--max-team 6000 --include-teams 10123 11456` will consider teams 1-6000 plus teams 10123 and 11456.
 
-## ��� Sample Output
+## Sample Output
 
 ```
 ��� Using The Blue Alliance API
@@ -172,7 +174,7 @@ RECOMMENDATIONS
    4. Consider backup scouts for critical events
 ```
 
-## ���️ Data Sources
+## Data Sources
 
 ### Option 1: The Blue Alliance API (Recommended)
 - Get your free API key from https://www.thebluealliance.com/account
@@ -197,7 +199,7 @@ For offline usage, place JSON files in the `event_data/` folder:
 ]
 ```
 
-## ��� Common District Abbreviations
+## Common District Abbreviations
 
 - `fim` - FIRST in Michigan
 - `ne` - New England  
@@ -210,7 +212,7 @@ For offline usage, place JSON files in the `event_data/` folder:
 - `nc` - North Carolina
 - `isr` - Israel
 
-## ��� Use Cases
+## Use Cases
 
 **For Team Captains:**
 - Plan scouting alliances before the season starts
@@ -227,7 +229,7 @@ For offline usage, place JSON files in the `event_data/` folder:
 - Build relationships with teams for playoff alliance selection
 - Share scouting workload efficiently across multiple events
 
-## ��� Building Scouting Alliances
+## Building Scouting Alliances
 
 Once you have your optimal team list:
 
@@ -237,7 +239,7 @@ Once you have your optimal team list:
 4. **Share Data**: Use scouting apps with data transfer features
 5. **Coordinate Strategy**: Share insights and analysis across the alliance
 
-## ��� Technical Details
+## Technical Details
 
 This tool uses a **greedy set cover algorithm** to find the minimum number of teams needed to cover all district events. The algorithm:
 
@@ -246,7 +248,7 @@ This tool uses a **greedy set cover algorithm** to find the minimum number of te
 3. Applies constraints (team number limits, exclusions)
 4. Generates multiple alternative solutions for flexibility
 
-## ��� Troubleshooting
+## Troubleshooting
 
 **API Errors:**
 - Verify your API key is correct
@@ -262,15 +264,15 @@ This tool uses a **greedy set cover algorithm** to find the minimum number of te
 - Install requirements: `pip install -r requirements.txt`
 - Ensure Python 3.7+ is installed
 
-## ��� Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit issues and pull requests.
 
-## ��� License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## ��� Acknowledgments
+## Acknowledgments
 
 - **FIRST Robotics Competition** for inspiring this project
 - **The Blue Alliance** for providing comprehensive FRC data APIs
