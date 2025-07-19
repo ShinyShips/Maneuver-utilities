@@ -1,9 +1,6 @@
 # FRC District Coverage Analysis
 
-A powerful command-line tool for FIRST Robotics Competition (F📡 Using The Blue Alliance API
-   Year: 2025
-   District: FMA
-Fetching 2025 FMA district events from The Blue Alliance.
+A powerful command-line tool for FIRST Robotics Competition
 
 ## 🔧 Technical Details
 
@@ -126,7 +123,7 @@ Example: `--max-team 6000 --include-teams 10123 11456` will consider teams 1-600
 ## Sample Output
 
 ```
-��� Using The Blue Alliance API
+Using The Blue Alliance API
    Year: 2025
    District: FMA
 Fetching 2025 FMA district events from The Blue Alliance...
@@ -167,7 +164,7 @@ RECOMMENDATIONS
 • Minimum teams needed: 4
 • Your team (3314) participates in: 2025paca, 2025njfla
 
-��� Recommended approach:
+Recommended approach:
    1. Contact the teams in Solution 1 first
    2. If any team cannot commit, try teams from alternative solutions
    3. Establish clear communication channels and data sharing protocols
