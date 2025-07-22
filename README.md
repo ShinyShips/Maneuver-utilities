@@ -77,14 +77,6 @@ We welcome contributions! Here are some ways you can help:
 4. Update this main README to list your utility
 5. Submit a pull request
 
-## 📋 Planned Utilities
-
-- **Match Predictor**: Predict match outcomes based on team performance data
-- **Alliance Selector**: Optimize alliance selection based on team statistics
-- **Event Analyzer**: Comprehensive event performance analysis
-- **Data Validator**: Validate and clean scouting data for consistency
-- **Report Generator**: Generate standardized scouting reports
-
 ## 📄 License
 
 This project is open source. Please see individual utility directories for specific licensing information.
