@@ -30,7 +30,9 @@ Filtering out district championship events...
 - `tx` - Texas
 - `in` - Indiana
 - `nc` - North Carolina
-- `isr` - Israelol solves the problem of coordinating comprehensive match scouting across multiple teams in a district with minimal resources.
+- `isr` - Israel
+
+solves the problem of coordinating comprehensive match scouting across multiple teams in a district with minimal resources.
 
 ## What It Does
 
