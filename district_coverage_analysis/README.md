@@ -51,7 +51,7 @@ The district coverage analysis tool answers the question: **"What's the minimum 
 
 1. **Clone this repository**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/frc-district-coverage-analysis.git
+   git clone https://github.com/ShinyShips/frc-district-coverage-analysis.git
    cd frc-district-coverage-analysis
    ```
 
@@ -196,19 +196,6 @@ For offline usage, place JSON files in the `event_data/` folder:
   }
 ]
 ```
-
-## Common District Abbreviations
-
-- `fim` - FIRST in Michigan
-- `ne` - New England  
-- `pnw` - Pacific Northwest
-- `ont` - Ontario
-- `chs` - Chesapeake
-- `fma` - FIRST Mid-Atlantic
-- `tx` - Texas
-- `in` - Indiana
-- `nc` - North Carolina
-- `isr` - Israel
 
 ## Use Cases
 
