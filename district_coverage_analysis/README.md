@@ -14,10 +14,7 @@ This tool uses a **greedy set cover algorithm** to find the minimum number of te
 **Note**: District championship events are automatically excluded because:
 - Championships are culminating events where teams compete for advancement
 - Regular scouting alliances are typically formed for qualifying events
-- Championship attendance is determined by district points, not pre-planned partnerships8 total events in FMA district
-Filtering out district championship events...
-  Skipping championship event: FIRST Mid-Atlantic District Championship (2025fmacmp)
-✅ Successfully fetched data for 7 events (excluding district championships)ams to find optimal scouting alliances for district events
+- Championship attendance is determined by district points, not pre-planned partnerships
 
 ## 🌍 Common District Abbreviations
 
