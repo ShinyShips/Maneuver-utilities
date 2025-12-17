@@ -14,10 +14,7 @@ This tool uses a **greedy set cover algorithm** to find the minimum number of te
 **Note**: District championship events are automatically excluded because:
 - Championships are culminating events where teams compete for advancement
 - Regular scouting alliances are typically formed for qualifying events
-- Championship attendance is determined by district points, not pre-planned partnerships8 total events in FMA district
-Filtering out district championship events...
-  Skipping championship event: FIRST Mid-Atlantic District Championship (2025fmacmp)
-✅ Successfully fetched data for 7 events (excluding district championships)ams to find optimal scouting alliances for district events
+- Championship attendance is determined by district points, not pre-planned partnerships
 
 ## 🌍 Common District Abbreviations
 
@@ -30,7 +27,9 @@ Filtering out district championship events...
 - `tx` - Texas
 - `in` - Indiana
 - `nc` - North Carolina
-- `isr` - Israelol solves the problem of coordinating comprehensive match scouting across multiple teams in a district with minimal resources.
+- `isr` - Israel
+
+solves the problem of coordinating comprehensive match scouting across multiple teams in a district with minimal resources.
 
 ## What It Does
 
@@ -52,7 +51,7 @@ The district coverage analysis tool answers the question: **"What's the minimum 
 
 1. **Clone this repository**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/frc-district-coverage-analysis.git
+   git clone https://github.com/ShinyShips/frc-district-coverage-analysis.git
    cd frc-district-coverage-analysis
    ```
 
@@ -197,19 +196,6 @@ For offline usage, place JSON files in the `event_data/` folder:
   }
 ]
 ```
-
-## Common District Abbreviations
-
-- `fim` - FIRST in Michigan
-- `ne` - New England  
-- `pnw` - Pacific Northwest
-- `ont` - Ontario
-- `chs` - Chesapeake
-- `fma` - FIRST Mid-Atlantic
-- `tx` - Texas
-- `in` - Indiana
-- `nc` - North Carolina
-- `isr` - Israel
 
 ## Use Cases
 
