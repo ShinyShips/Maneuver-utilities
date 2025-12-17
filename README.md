@@ -7,7 +7,10 @@ A collection of utilities for FRC (FIRST Robotics Competition) scouting and data
 ### 📊 [District Coverage Analysis](./district_coverage_analysis/)
 Analysis tools for FRC district event coverage and participation patterns.
 
-### 🔍 [Team Filtering](./team_filtering/)
+### � [Event Fetcher](./event_fetcher/)
+Fetch all FRC events for a given year from The Blue Alliance API. Returns event name, key, and week information in formatted output or JSON.
+
+### �🔍 [Team Filtering](./team_filtering/)
 Filter match data to only include teams registered for specific events. Removes invalid team entries from scouting data.
 
 ## 🚀 Getting Started
@@ -43,13 +46,17 @@ frc-scouting-utilities/
 │   ├── README.md
 │   ├── requirements.txt
 │   └── multiple_coverage_analysis.py
+├── event_fetcher/                     # Event fetcher utility
+│   ├── README.md
+│   ├── requirements.txt
+│   └── get_events.py                 # Fetch events by year
 ├── team_filtering/                     # Team filtering utility
 │   ├── README.md
 │   ├── requirements.txt
 │   ├── team_filter.py                # Main filtering script
 │   └── example.py                    # Usage examples
 └── docs/                              # General documentation
-    ├── TBA_API_GUIDE.md              # The Blue Alliance API guide
+    └── TBA_API_GUIDE.md              # The Blue Alliance API guide
 ```
 
 ## 🔑 Common Requirements
