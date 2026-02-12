@@ -48,12 +48,26 @@ class TBAEventFetcher:
             events = response.json()
             
             # Extract only name, key, and week
+            # TBA API weeks are 0-indexed (0 = FRC Week 1), so we add 1.
+            # Preseason events (event_type 100) are labeled as Week 0.
             simplified_events = []
             for event in events:
+                raw_week = event.get('week')
+                event_type = event.get('event_type')
+                
+                if event_type == 100:
+                    # Preseason / Week 0 events
+                    week = 0
+                elif raw_week is not None:
+                    # Convert from 0-indexed (TBA) to 1-indexed (FRC)
+                    week = raw_week + 1
+                else:
+                    week = None
+                
                 simplified_events.append({
                     'name': event.get('name'),
                     'key': event.get('key'),
-                    'week': event.get('week')
+                    'week': week
                 })
             
             return simplified_events
